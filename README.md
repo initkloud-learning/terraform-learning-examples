@@ -11,6 +11,12 @@ terraform destroy
 terraform show
 ```
 
+'''
+What this Repository consist of?
+1 - Terraform Basic Code
+2 - Terraform Modules
+'''
+
 Organisation Information:
 -------------------------------
 > www.initkloud.in | © initKloud 2022
