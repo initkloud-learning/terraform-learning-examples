@@ -11,6 +11,6 @@ terraform destroy
 terraform show
 ```
 
-Org Information:
+Organisation Information:
 -------------------------------
-initkloud.in | © initKloud 2022
+> www.initkloud.in | © initKloud 2022
