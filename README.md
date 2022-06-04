@@ -51,6 +51,23 @@ aws ec2 describe-instance-type-offerings --location-type availability-zone \
     --filter Name=instance-type,Values=t3.micro \
         --region us-east-1 --ouput table
 ```
+
+Using Terraform:
+
+```
+data "aws_ec2_instance_type_offerings" "my_inst_type" {
+    filter {
+        name = "instance-type"
+        values = ["t3.micro"]
+    }
+
+    filter {
+        name = "location"
+        values = ["us-east-1"]
+    }
+    location_type = "availability-zone"
+}
+```
 Organisation Information:
 -------------------------------
 > www.initkloud.in | © initKloud 2022
