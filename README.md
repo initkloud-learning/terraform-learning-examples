@@ -1,5 +1,7 @@
 # Terraform Learning - Example with AWS
-Terraform Learning
+Terraform Learning:
+> Terraform is a IaC(Infrastructure as a Code) tool which is used to codify the infra you are going to create/provision.
+
 ```
 Basic Terraform Command:
 terraform fmt
@@ -13,8 +15,8 @@ terraform show
 
 What this Repository consist of?
 ```
-1 - Terraform Basic Code
-2 - Terraform Modules
+1 - Terraform Basic Code Examples
+2 - Terraform Modules Examples
 ```
 
 Terraform Version used:
