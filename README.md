@@ -47,7 +47,9 @@ provider "aws" {
 
 AWS Command to get if Instanc type is supported in region or not.
 ```
-aws ec2 describe-instance-type-offerings --location-type availability-zone --filter Name=instance-type,Values=t3.micro --region us-east-1 --ouput table
+aws ec2 describe-instance-type-offerings --location-type availability-zone \
+    --filter Name=instance-type,Values=t3.micro \
+        --region us-east-1 --ouput table
 ```
 Organisation Information:
 -------------------------------
