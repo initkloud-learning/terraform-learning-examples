@@ -37,9 +37,8 @@ provider "aws" {
 
 ```
 
-|-------------------------------|
-|EC2 instance   |t2.micro       |
-|AMI used       |Amazon Linux 2 |
+| EC2 instance   | t2.micro       |
+| AMI used       | Amazon Linux 2 |
 
 Organisation Information:
 -------------------------------
