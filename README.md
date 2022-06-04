@@ -13,14 +13,12 @@ terraform show
 
 What this Repository consist of?
 ```
----------------------------------
 1 - Terraform Basic Code
 2 - Terraform Modules
 ```
 
 Terraform Version used:
 ```
----------------------------------
 terraform {
     required_version = "~> 1.1.2"
     required_providers {
@@ -30,7 +28,6 @@ terraform {
         }
     }
 }
-
 
 provider "aws" {
     region = "us-east-1"
