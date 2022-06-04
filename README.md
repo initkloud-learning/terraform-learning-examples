@@ -37,6 +37,10 @@ provider "aws" {
 
 ```
 
+
+>> EC2 instance used for this course - t2.micro
+>> AMI used - (Amazon Linux 2)
+
 Organisation Information:
 -------------------------------
 > www.initkloud.in | © initKloud 2022
