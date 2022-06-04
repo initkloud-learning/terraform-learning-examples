@@ -36,7 +36,8 @@ provider "aws" {
 }
 
 ```
-
+| Attributes     | Values         |
+| -------------- | -------------- |
 | EC2 instance   | t2.micro       |
 | AMI used       | Amazon Linux 2 |
 
