@@ -15,11 +15,11 @@ terraform show
 
 What this Repository consist of?
 ```
-1 - Terraform Basic Code Examples
+1. Terraform Basic Code Examples
     1. Terraform loops
     2. Terraform Meta arguments
     3. Splat
-2 - Terraform Modules Examples
+2. Terraform Modules Examples
 ```
 
 Terraform Version used:
@@ -45,6 +45,10 @@ provider "aws" {
 | EC2 instance   | t2.micro       |
 | AMI used       | Amazon Linux 2 |
 
+AWS Command to get if Instanc type is supported in region or not.
+```
+aws ec2 describe-instance-type-offerings --location-type availability-zone --filter Name=instance-type,Values=t3.micro --region us-east-1 --ouput table
+```
 Organisation Information:
 -------------------------------
 > www.initkloud.in | © initKloud 2022
