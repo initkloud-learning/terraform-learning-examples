@@ -16,6 +16,9 @@ terraform show
 What this Repository consist of?
 ```
 1 - Terraform Basic Code Examples
+    1. Terraform loops
+    2. Terraform Meta arguments
+    3. Splat
 2 - Terraform Modules Examples
 ```
 
